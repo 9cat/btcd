@@ -1,8 +1,8 @@
 module github.com/btcsuite/btcd
 
 require (
-	github.com/btcsuite/btcd/btcec/v2 v2.1.0
-	github.com/btcsuite/btcd/btcutil v1.1.0
+	github.com/9cat/btcd/btcec/v2 v2.1.0
+	github.com/9cat/btcd/btcutil v1.1.0
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
 	github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd
 	github.com/btcsuite/goleveldb v1.0.0
@@ -22,9 +22,9 @@ require (
 	github.com/kkdai/bstream v0.0.0-20161212061736-f391b8402d23 // indirect
 )
 
-replace github.com/btcsuite/btcd/btcutil => ./btcutil
+replace github.com/9cat/btcd/btcutil => ./btcutil
 
-replace github.com/btcsuite/btcd/btcec/v2 => ./btcec
+replace github.com/9cat/btcd/btcec/v2 => ./btcec
 
 // The retract statements below fixes an accidental push of the tags of a btcd
 // fork.
